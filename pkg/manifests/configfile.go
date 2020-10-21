@@ -21,7 +21,7 @@ import (
 
 const (
 	ConfigFilename = ".flux.yaml"
-	CommandTimeout = time.Minute
+	CommandTimeout = 10 * time.Minute
 )
 
 // This is easier to read as YAML, trust me.
